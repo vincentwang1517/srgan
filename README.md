@@ -9,10 +9,11 @@ Please download the fer2013 dataset by youself and modify the path in config.py.
 I discover some problems such as distorting face, unequal eyes, unnecessary details in the original version. Therefore, I slightly modify the structure of generator in this main_resnet.py. 
 
 ### Results
+Randomly pick 9 face images from the validation dataset and verify the results. (set epoch = 100)
 
 <a href="http://tensorlayer.readthedocs.io">
 <div align="center">
-	<img src="img/main_resnet_results.PNG" width="80%" height="50%"/>
+	<img src="img/main_resnet_results.PNG" width="50%" height="300%"/>
 </div>
 </a>
 
