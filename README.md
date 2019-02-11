@@ -1,3 +1,34 @@
+## Branch srgan-fer2013
+
+In this branch I modify the srgan code so it can work on fer2013 dataset and super-resolution the face image.
+
+Please download the fer2013 dataset by youself and modify the path in config.py.
+
+### main_resnet.py
+
+I discover some problems such as distorting face, unequal eyes, unnecessary details in the original version. Therefore, I slightly modify the structure of generator in this main_resnet.py. 
+
+### Results
+Randomly pick 9 face images from the validation dataset and verify the results. (set epoch = 100)
+
+<a href="http://tensorlayer.readthedocs.io">
+<div align="center">
+	<img src="img/main_resnet_results.PNG" width="50%" height="300%"/>
+</div>
+</a>
+
+### Run
+
+train:
+`python main.py` to run the original version or 
+`python main_resnet.py` to run the modified version
+
+test:
+`python test.py` 
+Please change the dataset path and the config.MODEL_path
+
+---
+
 ## Super Resolution Examples
 
 
