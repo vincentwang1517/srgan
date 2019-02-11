@@ -27,6 +27,8 @@ test:
 `python test.py` 
 Please change the dataset path and the config.MODEL_path
 
+---
+
 ## Super Resolution Examples
 
 
